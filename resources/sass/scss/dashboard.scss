@@ -1,0 +1,60 @@
+@import "variables";
+
+.dashboard {
+    .card {
+        background: $white;
+        padding: $px-20;
+        p {
+            margin-bottom: $px-0 !important;
+        }
+        .card-detail{
+            display: table;
+
+            .text, .icon {
+                display: table-cell;
+                width: 100%;
+            }
+
+            .icon {
+               // font-size: 25px;
+                vertical-align: middle;
+                img{
+                    width: 30px;
+                }
+                // i {
+                //     padding: $px-10;
+                //     background: #d5dde0;
+                //     border-radius: 5px;
+                //     color: #65ad75;
+                // }
+            }
+
+            .text {
+                h1 {
+                    margin-bottom: $px-0 !important;
+                    font-size: 25px;
+                    color: #2978ff;
+                }
+                h3 {
+                    margin-bottom: $px-0 !important;
+                    color: #2978ff;
+                }
+            }
+        }
+    }
+
+    .chart {
+        margin-top: 16px;
+
+        .line-chart, .donough-chart {
+            background: $white;
+            padding: $px-20;
+        }
+    }
+}
+
+@media(max-width:1199px){
+    .dashboard-card{
+        margin-bottom: 16px !important;
+    }
+}

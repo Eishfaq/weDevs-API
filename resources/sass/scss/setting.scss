@@ -1,0 +1,38 @@
+@import "variables";
+
+.settings {
+    .card {
+        background: $white;
+        padding: $px-20;
+    }
+
+    .title {
+        font-size: 20px;
+        border-bottom: 1px solid #ebedf2;
+        padding-bottom: 16px;
+    }
+
+    .content {
+        padding-top: 16px;
+
+        .ant-upload.ant-upload-drag .ant-upload {
+            padding: 5px 0 4px 0 !important;
+        }
+    }
+    .setting-header{
+      //  border-bottom: 1px solid #ebedf2;
+        padding-bottom: 48px !important;
+        .header-title{
+            font-size: 20px;
+            float: left;
+        }
+        .action{
+            float: right;
+        }
+    }
+    .data{
+      //  padding-top: 16px;
+    }
+}
+
+

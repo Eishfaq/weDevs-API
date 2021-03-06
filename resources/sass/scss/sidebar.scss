@@ -1,0 +1,19 @@
+@import 'variables';
+
+.ant-layout-sider {
+    background: $white !important;
+}
+
+.full-logo {
+    max-height: 32px;
+  //  width: 170px;
+}
+
+.small-logo {
+    max-height: 30px
+}
+
+
+.ant-drawer-body{
+    padding: 0 !important;
+}

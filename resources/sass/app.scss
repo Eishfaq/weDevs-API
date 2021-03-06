@@ -1,0 +1,108 @@
+// Fonts
+//@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+// Variables
+@import 'variables';
+@import 'scss/sidebar';
+@import 'scss/header';
+@import "scss/dashboard";
+@import "scss/login";
+@import "scss/datatable";
+@import "scss/setting";
+
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+
+// main-layout scss
+.main-layout {
+    margin: 24px 16px;
+    min-height: 850px !important;
+}
+
+// scss for all
+.float-right {
+    float: right !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-danger {
+    color: #d63737
+}
+
+// action icon
+
+.action-icon {
+    i {
+        font-size: 20px;
+    }
+}
+
+.border-bottom {
+    //  border-bottom: 1px solid #e8e8e8;
+}
+
+hr{
+    border: 1px solid #efebeb;
+}
+
+.capitalize-letter{
+    text-transform: capitalize;
+  }
+//sub header scss
+
+.sub-header-title {
+    display: table;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+
+    .sub-header-name, .sub-header-action {
+        display: table-cell;
+        vertical-align: middle;
+
+    }
+
+    .sub-header-name {
+        font-weight: 600;
+    }
+}
+
+.ant-skeleton-title {
+    display: none;
+}
+
+.large-skeleton {
+    .ant-skeleton-paragraph {
+        margin-top: 12px !important;
+        padding: 0 12px !important;
+    }
+}
+.ant-form-item{
+    margin-bottom: 6px !important;
+     padding-bottom: 4px !important;
+}
+
+.profile-pic {
+    .ant-upload.ant-upload-select-picture-card {
+        width: 200px !important;
+        height: 200px !important;
+        //border-radius: 50% !important;
+        margin: 0 auto;
+        border: unset;
+    }
+}
